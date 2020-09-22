@@ -1,0 +1,460 @@
+[Root]
+Most Recent Package=HM02
+
+
+[Package|HM01|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Handyman2002\Package
+
+[Package|HM01|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HM01|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HM01|Files Found]
+
+[Package|HM01|Files Released]
+
+[Package|HM01|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=
+C:\WINDOWS\SYSTEM\VText.dll=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=
+
+[Package|HM01|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+
+[Package|HM01|Files Added]
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=
+
+[Package|HM01|Files Removed]
+
+[Package|HM01|Files In Project]
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_103.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VText.dll=Yes
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+D:\Program Files\Microsoft Office\Office\MSCAL.OCX=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=Yes
+
+[Package|HM01|Configure Registry Files]
+Applicable=No
+
+[Package|HM01|Configure Remote Servers]
+Applicable=No
+
+[Package|HM01|Install Locations]
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_103.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VText.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=$(AppPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=$(AppPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=$(AppPath)
+
+[Package|HM01|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_103.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=Yes
+
+[Package|HM01|Distribution]
+Type=single
+Size=
+Title=Handyman 2002
+
+[Package|HM01|IconGroups]
+Group0=Handyman 2002
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HM01|Handyman 2002]
+Icon1=Handyman2002_103.exe
+Title1=Handyman 2002 Version 1.03
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Handyman2002_102.exe
+Title2=Handyman 2002 Version 1.02
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=Handyman2002_101.exe
+Title3=Handyman 2002 Version 1.01
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4=Handyman2002_100.exe
+Title4=Handyman 2002 Version 1.00
+StartIn4=$(AppPath)
+Key4=Icon6
+
+[Package|HM01|Package]
+PackageFolder=C:\WINDOWS\Desktop\Handyman2002\Package
+ProjectFolder=C:\WINDOWS\Desktop\Handyman2002
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Handyman2002\Package\setup.exe
+File2=C:\WINDOWS\Desktop\Handyman2002\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\Handyman2002\Package\Handyman2002_103.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|TM02|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\
+
+[Package|TM02|Configure DAO ISAMs]
+Applicable=No
+
+[Package|TM02|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|TM02|Files Found]
+Handyman2002_100.exe=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe
+
+[Package|TM02|Files Released]
+
+[Package|TM02|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=
+C:\WINDOWS\SYSTEM\VText.dll=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_103.exe=
+
+[Package|TM02|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINNT\system32\mscomctl.ocx=
+C:\WINNT\system32\MSCAL.OCX=
+C:\WINNT\system32\TABCTL32.OCX=
+
+[Package|TM02|Files Added]
+c:\documents and settings\zhanmz\desktop\handyman\handyman2002_102.exe=
+c:\documents and settings\zhanmz\desktop\handyman\handyman2002_101.exe=
+c:\documents and settings\zhanmz\desktop\handyman\handyman2002_100.exe=
+c:\documents and settings\zhanmz\desktop\handyman\handyman2002_103.exe=
+
+[Package|TM02|Files Removed]
+
+[Package|TM02|Files In Project]
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_104.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VText.dll=Yes
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSCAL.OCX=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_102.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_101.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_103.exe=Yes
+
+[Package|TM02|Configure Registry Files]
+Applicable=No
+
+[Package|TM02|Configure Remote Servers]
+Applicable=No
+
+[Package|TM02|Install Locations]
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_103.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VText.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=$(AppPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=$(AppPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=$(AppPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_104.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VText.dll=$(WinSysPath)
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_102.exe=$(AppPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_101.exe=$(AppPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe=$(AppPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_103.exe=$(AppPath)
+
+[Package|TM02|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_103.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_104.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_102.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_101.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_103.exe=Yes
+
+[Package|TM02|Distribution]
+Type=single
+Size=
+Title=Handyman 2002
+
+[Package|TM02|IconGroups]
+Group0=Handyman 2002
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|TM02|Handyman 2002]
+Icon1=Handyman2002_100.exe
+Title1=Handyman 2002 Version 1.00
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Handyman2002_101.exe
+Title2=Handyman 2002 Version 1.01
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=Handyman2002_102.exe
+Title3=Handyman 2002 Version 1.02
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4=Handyman2002_103.exe
+Title4=Handyman 2002 Version 1.03
+StartIn4=$(AppPath)
+Key4=Icon6
+Icon5=Handyman2002_104.exe
+Title5=Handyman 2002 Version 1.04
+StartIn5=$(AppPath)
+Key5=Icon7
+
+[Package|TM02|DepFile]
+DepCabFile=Handyman2002_104.CAB
+DepCabRun=Handyman2002_104.INF
+
+[Package|TM02|Package]
+PackageFolder=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\
+ProjectFolder=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan
+ServerSideCab=
+File1=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_104.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|HM02|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Install
+
+[Package|HM02|Configure DAO ISAMs]
+Applicable=No
+
+[Package|HM02|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|HM02|Files Found]
+Handyman2002_100.exe=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe
+Handyman2002_101.exe=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_101.exe
+
+[Package|HM02|Files Released]
+
+[Package|HM02|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=
+C:\WINDOWS\SYSTEM\VText.dll=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_103.exe=
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_101.exe=
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_102.exe=
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe=
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=
+C:\WINNT\system32\VText.dll=
+
+[Package|HM02|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\mscomctl.ocx=
+C:\WINNT\system32\mscomctl.ocx=
+C:\WINNT\system32\MSCAL.OCX=
+C:\WINNT\system32\TABCTL32.OCX=
+
+[Package|HM02|Files Added]
+handyman2002_102.exe=
+handyman2002_101.exe=
+handyman2002_100.exe=
+c:\documents and settings\zhanmz\desktop\handyman\handyman2002_103.exe=
+
+[Package|HM02|Files Removed]
+
+[Package|HM02|Files In Project]
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_104.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VText.dll=Yes
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=Yes
+C:\WINNT\system32\TABCTL32.OCX=Yes
+C:\WINNT\system32\MSCAL.OCX=Yes
+C:\WINNT\system32\mscomctl.ocx=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_102.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_101.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_103.exe=Yes
+
+[Package|HM02|Configure Registry Files]
+Applicable=No
+
+[Package|HM02|Configure Remote Servers]
+Applicable=No
+
+[Package|HM02|Install Locations]
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_103.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VText.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Office\Office\MSCAL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=$(AppPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=$(AppPath)
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=$(AppPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_104.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VText.dll=$(WinSysPath)
+C:\WINNT\system32\Macromed\Flash\swflash.ocx=$(WinSysPath)
+C:\WINNT\system32\TABCTL32.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCAL.OCX=$(WinSysPath)
+C:\WINNT\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_102.exe=$(AppPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_101.exe=$(AppPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe=$(AppPath)
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_103.exe=$(AppPath)
+
+[Package|HM02|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_103.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_102.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_101.exe=Yes
+C:\WINDOWS\Desktop\Handyman2002\Handyman2002_100.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_104.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_102.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_101.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_100.exe=Yes
+C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Handyman2002_103.exe=Yes
+
+[Package|HM02|Distribution]
+Type=single
+Size=
+Title=Handyman 2002
+
+[Package|HM02|IconGroups]
+Group0=Handyman 2002
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|HM02|Handyman 2002]
+Icon1=Handyman2002_100.exe
+Title1=Handyman 2002 Version 1.00
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=Handyman2002_101.exe
+Title2=Handyman 2002 Version 1.01
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=Handyman2002_102.exe
+Title3=Handyman 2002 Version 1.02
+StartIn3=$(AppPath)
+Key3=Icon5
+Icon4=Handyman2002_103.exe
+Title4=Handyman 2002 Version 1.03
+StartIn4=$(AppPath)
+Key4=Icon6
+Icon5=Handyman2002_104.exe
+Title5=Handyman 2002 Version 1.04
+StartIn5=$(AppPath)
+Key5=Icon7
+
+[Package|HM02|Package]
+PackageFolder=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Install
+ProjectFolder=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan
+ServerSideCab=
+File1=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Install\setup.exe
+File2=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Install\Setup.Lst
+File3=C:\Documents and Settings\ZHANMZ\Desktop\HandyMan\Install\Handyman2002_104.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
